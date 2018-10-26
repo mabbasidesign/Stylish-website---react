@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
+import Navigation from './navigation';
+import Header from './header';
 
 class App extends Component {
   render() {
     return (
-      
       <div>
-        App
+        <Navigation logoTitle="Stylish"/>
+        <Header title="Stylish Portfolio"  button="Find Out More"/>
       </div>
     );
   }
